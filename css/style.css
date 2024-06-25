@@ -65,6 +65,13 @@ header.hero::before {
   z-index: 1;
 }
 
+/* Media query for screens wider than 1200px */
+@media (min-width: 1921px) {
+  header.hero {
+    padding-bottom: 400px; /* Further increase padding for even larger screens */
+  }
+}
+
 header.hero .hero-text {
   margin-top: 20%;
   margin-bottom: 20%;
@@ -316,6 +323,15 @@ h1.heading.pink:after {
   font-size: 2em;
 }
 
+.tech-stack {
+}
+
+.tech-stack h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 5.6em;
+}
+
 
 /* Contact Banner */
 .contact-banner {
@@ -331,6 +347,27 @@ h1.heading.pink:after {
   margin-bottom: 1em;
 }
 
+.tech {
+  display: inline-block;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tech img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.tech p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+}
 
 /* Footer */
 .footer {
