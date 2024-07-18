@@ -150,7 +150,7 @@ ul.social-links li a img {
   padding: 5em 3em;
   background-color: #fff;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
-  z-index: 999999;
+  z-index: 2;
 }
 h4.sub-heading {
   text-transform: uppercase;
@@ -551,6 +551,7 @@ ul.main-nav.show-it {
   header.hero {
     text-align: center;
     padding-bottom: 0;
+    z-index: 1;
   }
   header.hero h1 {
     font-size: 2em;
